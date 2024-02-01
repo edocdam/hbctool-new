@@ -1,7 +1,7 @@
 
 from hbctool.util import *
 from hbctool.hbc.hbc96 import HBC96
-from hbctool.hbc.hbc96 import HBC95
+from hbctool.hbc.hbc95 import HBC95
 from hbctool.hbc.hbc94 import HBC94
 from hbctool.hbc.hbc90 import HBC90
 from hbctool.hbc.hbc85 import HBC85
