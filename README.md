@@ -79,6 +79,8 @@ hbctool currently supports the following Hermes Bytecode version:
 
 ## Contribution
 
+- YOu can follow this [guide](https://github.com/cyfinoid/hbctool/blob/main/ADD_NEW_VERSION.md) to learn how to add support for new/diff. versions
+
 Feel free to create an issue or submit the merge request. Anyway you want to contribute this project. I'm very happy about it.
 
 However, please run the unit test before submiting the pull request.
@@ -90,9 +92,8 @@ python test.py
 
 I use poetry to build this tool. To build it yourself, simply execute:
 
-1. `poetry install`
-2. `poetry build`
-4. `pip install --force-reinstall dist/hbctool-<VERSION>-py3-none-any.whl`
+1. `poetry build`
+2. `pip install --force-reinstall dist/hbctool-<VERSION>-py3-none-any.whl`
 
 ## Next Step
 
@@ -100,3 +101,11 @@ I use poetry to build this tool. To build it yourself, simply execute:
 - Create a class abstraction
 - Support overflow patching
 - Do all TODO, NOTE, FIXME in source code
+
+## Credits
+
+- [bongtrop](https://github.com/bongtrop/hbctool) : For Initial Release and maintainance
+- [jeromew](https://github.com/jeromew/hbctool/tree/hbc90) : For HBC90 support
+- [gilcu3](https://github.com/gilcu3/hbctool/tree/hbc94) : For HBC94 support
+- [cyfinoid](https://github.com/cyfinoid/hbctool/blob/main/ADD_NEW_VERSION.md) : For the guide
+- This Repo(me 😆) : For HBC95 & HBC96 support
