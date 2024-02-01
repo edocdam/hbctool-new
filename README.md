@@ -90,6 +90,8 @@ cd hbctool
 python test.py
 ```
 
+## Building
+
 I use poetry to build this tool. To build it yourself, simply execute:
 
 1. `poetry build`
