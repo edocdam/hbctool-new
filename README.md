@@ -100,7 +100,7 @@ I use poetry to build this tool. To build it yourself, simply execute:
 OR, you can use `build` also:
 
 1. `pip install build`
-2. `python -m build`
+2. `python -m build` or `python3 -m build`
 3. `pip install --force-reinstall dist/hbctool-<VERSION>-py3-none-any.whl`
 
 ## Next Step
