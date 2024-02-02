@@ -97,6 +97,12 @@ I use poetry to build this tool. To build it yourself, simply execute:
 1. `poetry build`
 2. `pip install --force-reinstall dist/hbctool-<VERSION>-py3-none-any.whl`
 
+OR, you can use `build` also:
+
+1. `pip install build`
+2. `python -m build`
+3. `pip install --force-reinstall dist/hbctool-<VERSION>-py3-none-any.whl`
+
 ## Next Step
 
 - Add the other Hermes bytecode versions
